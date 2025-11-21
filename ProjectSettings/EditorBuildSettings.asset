@@ -5,7 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Settings/Scenes/2D URP Scene Template.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2388177bbeaf0f04183a1fff766699db
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: 7b50c92ef8ab9044c8babc9d3420b866
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: c4ebe19a8df3de2479ccadcfced85d7e
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

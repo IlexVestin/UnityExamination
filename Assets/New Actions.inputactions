@@ -4,91 +4,71 @@
     "maps": [
         {
             "name": "Player",
-            "id": "cbb71f8b-b4cb-4927-81cc-5eb28ac5902c",
+            "id": "e2483afe-36ff-49ad-baef-961146f88272",
             "actions": [
                 {
-                    "name": "Move",
+                    "name": "MoveInput",
                     "type": "Value",
-                    "id": "6a3e93ce-dd08-4bed-a2d3-f9ecd0148bf6",
+                    "id": "b49f537e-6c16-4787-990c-5327cb12729f",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "572cc5cb-2b4b-4dc1-8b10-d1044891deed",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "b7080a86-b882-4a98-bba6-de8a69a68154",
-                    "path": "<Keyboard>/z",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "2D Vector",
-                    "id": "8613f91e-5838-48eb-b5c9-dcfd1cfb9f1f",
+                    "id": "94142e1d-5265-4146-846c-965394427217",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveInput",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "up",
-                    "id": "39240aee-26ee-4435-b124-9f9780fc7aeb",
+                    "id": "7d21f8b7-575b-48ff-8bd8-dac6bfef2873",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveInput",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "down",
-                    "id": "24b908ab-0d69-4c88-8846-73c4311b1334",
+                    "id": "21faf319-8757-4345-bb30-b4798a14b739",
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveInput",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "left",
-                    "id": "fb5c859a-1f59-4d12-95f9-f8da11764ae7",
+                    "id": "c16e7182-2854-4588-ba40-46451356406f",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveInput",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "right",
-                    "id": "f3dd64e0-4f88-4818-9909-68d8b4bb1cd9",
+                    "id": "10bfbd69-0f57-474e-99ea-43a34ba3e753",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveInput",
                     "isComposite": false,
                     "isPartOfComposite": true
                 }
