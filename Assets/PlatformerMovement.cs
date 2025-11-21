@@ -19,7 +19,7 @@ public class PlatformerMovement : MonoBehaviour
 
     public bool controlEnabled { get; set; } = true; // You can edit this variable from Unity Events
     
-    private Vector2 moveInput;
+    public Vector2 moveInput;
     private Rigidbody2D rb;
     
     // Platformer specific variables
@@ -96,11 +96,11 @@ public class PlatformerMovement : MonoBehaviour
         // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
         if (velocity.x != 0)
         {
-            animator.Play("MovingAnimation");
+            animator.Play("Run");
         }
         else
         {
-            animator.Play("IdleAnimation");
+            animator.Play("Idle");
         }
     }
 
