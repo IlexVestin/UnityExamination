@@ -7,9 +7,18 @@
             "id": "e2483afe-36ff-49ad-baef-961146f88272",
             "actions": [
                 {
-                    "name": "MoveInput",
+                    "name": "Move",
                     "type": "Value",
                     "id": "b49f537e-6c16-4787-990c-5327cb12729f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "Value",
+                    "id": "0bb08bb4-2388-4c84-923a-a5c6fa401a18",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -24,31 +33,9 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MoveInput",
+                    "action": "Move",
                     "isComposite": true,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "7d21f8b7-575b-48ff-8bd8-dac6bfef2873",
-                    "path": "<Keyboard>/upArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MoveInput",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "21faf319-8757-4345-bb30-b4798a14b739",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MoveInput",
-                    "isComposite": false,
-                    "isPartOfComposite": true
                 },
                 {
                     "name": "left",
@@ -57,7 +44,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MoveInput",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -68,9 +55,20 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MoveInput",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "14013081-6afb-4bb6-9400-5ac0cbcadb39",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

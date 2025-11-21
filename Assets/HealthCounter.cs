@@ -5,14 +5,13 @@ public class HealthCounter : MonoBehaviour
 {
 
     public TMP_Text TMtext;
-    public int healthCounter = 5;
+    public int healthCounter = 1;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        healthCounter = 5;
         TMtext = GetComponent<TMP_Text>();
-        TMtext.text = "5" + healthCounter;
+        TMtext.text = "Health:" + healthCounter;
     }
 
     // Update is called once per frame
